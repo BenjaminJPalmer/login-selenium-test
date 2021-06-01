@@ -5,7 +5,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
 # TODO add csv with test data
-with open(r"csv here", newline='') as f:
+with open(r"data.csv", newline='') as f:
     reader = csv.reader(f)
     data = list(reader)
     
